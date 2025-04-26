@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Estrutura HTML5 com Bootstrap</title>
+    <meta name="description" content="Uma página de exemplo para demonstrar a estrutura básica do HTML5 com Bootstrap.">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos personalizados (opcional) -->
+    <style>
+        body {
+            padding: 20px;
+        }
+        header {
+            margin-bottom: 20px;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            background-color: #f8f9fa;
+        }
+
+        table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        }
+        
+
+
+        th, td {
+        border: 1px solid rgb(41, 21, 223);
+        padding: 12px;
+        text-align: left;
+        }
+
+
+        th {
+         background-color: #f4f4f4;
+        }
+        
+
+        tr:nth-child(even) {
+             background-color: #18e44400;
+        }
+
+
+        tr:hover {
+        background-color: #ec0303;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <h1 class="text-dark">aula 04 - tabelas</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a href="#section1" class="nav-link">Seção 1</a></li>
+                    <li class="nav-item"><a href="#section2" class="nav-link">Seção 2</a></li>
+                    <li class="nav-item"><a href="#footer" class="nav-link">Rodapé</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main class="container">
+
+
+        <!-- seção 1 -->
+        <section id="section1" class="mb-5">
+            <h2 class="text-dark">produtos</h2>
+
+            <table>
+                <!-- Head da Tabela -->   
+                <thead>
+                  <!-- Linha -->       
+                  <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                  </tr>
+                </thead>
+                <!-- Corpo da tabela --> 
+                <tbody>
+                  <!-- Linha -->     
+                  <tr>        
+                    <td>Tênis A</td>
+                    <td>R$ 299,90</td>
+                  </tr>
+
+                  <!--- SEGUNDA PARTE-->
+                  <tr>
+                    <td colspan="2">Promoção Relâmpago</td>                    
+                  </tr>
+
+                  <tr>
+                    <td rowspan="2">Tênis B</td>
+                    <td>R$ 399,90</td>
+                  </tr>
+                                                  
+                  <tr>
+                    <td>Desconto: 10%</td>
+                  </tr>
+                 
+                    
+                    <tr>
+                        <td colspan="2">
+                          oferta do mês
+                        </td> 
+                    </tr>
+                  
+                  
+                  <tr>
+                    <td rowspan="2">tenis c</td>
+                    <td>R$ 599,90</td>    
+                  </tr>
+
+                  <tr>
+                    <td> Desconto de 20%</td>
+                  </tr>
+
+                  <!-- mais simples -->
+
+                  <tr>
+                    <td>
+                      <img src="https://placehold.co/100x100?text=Tenis%20Mike"
+                          alt="Tenis Nike">
+                    </td>
+
+                    <td>
+                      <p>R$ 352,21</p>
+                      <p>Desconto de 15%</p>
+                    </td>
+
+                  </tr>
+
+
+
+                </tbody>
+            </table>
+
+            
+        </section>
+
+        
+    </main>
+            
+
+    <!-- Rodapé -->
+    <footer id="footer" class="container text-center">
+        <p class="text-muted p-5">
+           
+            Guilherme de Oliveira Marques
+        </p>  
+            
+    </footer>
+
+    <!-- Bootstrap JS e dependências -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
