@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Estrutura HTML5</title>
+    <meta name="description" content="Uma página de exemplo para demonstrar a estrutura básica do HTML5.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Elemento HEADER --> 
+    <header>
+        <h1>formulário</h1>
+        <nav>
+            <ul>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Ememento MAIN - Área principal da página -->
+    <main class="container">
+
+     
+        <section id="section1">
+         
+            <div>
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado" required>
+            </div>
+              <option value="">Selecione...</option>
+              <option value="SP">São Paulo</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="MG">Espirito Santo</option>
+            </select>
+            </div>
+
+
+            <div>
+            <label>Gênero:</label>
+            <input type="radio" id="masculino" name="genero" value="M" checked>
+            <label for="masculino">Masculino</label>
+
+            <input type="radio" id="feminino" name="genero" value="F">
+            <label for="feminino">Feminino</label>
+
+            <input type="radio" id="n_binario" name="genero" value="n_binario">
+            <label for="feminino">não binario</label>
+
+            <input type="radio" id="n_informado" name="genero" value="n_informado">
+            <label for="n_informado">não informado</label>
+            </div>
+
+            <div>
+            <label>Interesses:</label>
+            <input type="checkbox" id="esportes" name="interesses[]" value="esportes">
+            <label for="esportes">Esportes</label>
+
+            <input type="checkbox" id="musica" name="interesses[]" value="musica">
+            <label for="musica">Música</label>
+
+            <input type="checkbox" id="ação" name="interesses[]" value="ação">
+            <label for="ação">ação</label>
+
+            <input type="checkbox" id="terror" name="interesses[]" value="terror">
+            <label for="terror">terror</label>
+
+            <input type="checkbox" id="aventura" name="interesses[]" value="aventura">
+            <label for="aventura">aventura</label>
+            </div>
+
+            <div>
+            <label for="cor-favorita">Cor favorita:</label>
+            <input type="color" id="cor-favorita" name="cor_favorita" value="#ff0000">
+            </div>
+
+            <div>
+            <label for="foto">Envie sua foto:</label>
+            <input type="file" id="foto" name="foto" accept="image/*" required>
+            </div>
+
+            <div>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50" 
+            placeholder="Digite sua mensagem aqui..."></textarea>
+
+                    <button type="submit">cadastrar</button>
+                    <button type="reset">Limpar</button>
+            </div>  
+            </form>
+       
+
+        <section id="section2">
+            
+            <article>
+               
+            </article>
+        </section>
+    </main>
+
+    <!-- Elemento FOOTER - Roda-pé da página --> 
+    <footer id="footer">
+        <p>&copy; 2025 - Guilherme de Oliveira Marques.</p>
+    </footer>
+</body>
+</html>

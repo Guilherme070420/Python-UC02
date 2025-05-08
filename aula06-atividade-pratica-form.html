@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Estrutura HTML5 com Bootstrap e Font Awesome</title>
+    <meta name="description" content="Uma página de exemplo para demonstrar a estrutura básica do HTML5 com Bootstrap e Font Awesome.">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Elemento HEADER --> 
+    <header>
+        <h1>formulário</h1>
+        <nav>
+            <ul>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Ememento MAIN - Área principal da página -->
+    <main class="container">
+        <section>
+            <form>
+               
+                </div>
+
+                <div class="mb-3">
+                    <label for="cidade"class="from-label">seleciona um estado:</label>
+                    <label for="estado">Estado:</label>
+                <select id="estado" name="estado" required>
+                <option value="">escolha um estado...</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="MG">Espirito Santo</option>
+                </div>
+
+            
+            
+                    <div class="mb-3">
+                    <label>Gênero:</label>
+                    <input type="radio" id="masculino" name="genero" value="M" checked>
+                    <label for="masculino">Masculino</label>
+        
+                    <input type="radio" id="feminino" name="genero" value="F">
+                    <label for="feminino">Feminino</label>
+        
+                    <input type="radio" id="n_binario" name="genero" value="n_binario">
+                    <label for="feminino">não binario</label>
+        
+                    <input type="radio" id="n_informado" name="genero" value="n_informado">
+                    <label for="n_informado">não informado</label>
+                    </div>
+
+                <div class="mb-3">
+                    <label for="senha"class="from-label">confirmar senha:</label>
+                    <input type="confirmar senha"
+                        class="form-control"
+                        id="confirmar senha"
+                        name="confirmar senha"
+                        pattern="[0-9]{11}"                 
+                        title="confirmar senha"
+                        placeholder="confirme a sua senha"
+                        title="formato:">
+                </div>
+
+                <div class="mb-3">
+                    <label for="estado"class="from-label">estado:</label>
+                    <input type="estado"
+                        class="form-control"
+                        id="estado"
+                        name="estado"
+                        pattern="AC|AL|AP|AM|BA|CE|DF|ES|GO|MA|MT|MS|MG|PA|PB|PR|PE|PI|RJ|RN|RS|RO|RR|SC|SP|SE|TO"  maxlength="2"
+                        title="estado"
+                        placeholder="digite a seu estado"
+                        title="Informe a sigla do estado, como SP, RJ, MG, etc." required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="cep"class="from-label">cep:</label>
+                    <input type="cep"
+                        class="form-control"
+                        id="cep"
+                        name="cep"
+                        pattern="\d{5}-?\d{3}"   maxlength="11"           
+                        title="cep"
+                        placeholder="digite a seu cep"
+                        title="formato:">
+                </div>
+
+                <div class="mb-3">
+                    <label for="cpf"class="from-label">cpf:</label>
+                    <input type="cpf"
+                        class="form-control"
+                        id="cpf"
+                        name="cpf"
+                        pattern="pattern="\d{3}\.\d{3}\.\d{3}-\d{2} \}  maxlength="11"               
+                        title="cidade"
+                        placeholder="digite a seu cpf"
+                        title="formato:">
+                </div>
+
+                <div class="mb-3">
+                    <label for="cpf"class="from-label">data de nascimento:</label>
+                    <input type="cpf"
+                        class="form-control"
+                        id="data de nascimento"
+                        name="data de nascimento"
+                        pattern="YYYY-MM-DD}"    maxlength="8"             
+                        title="data de nascimento"
+                        placeholder="dd/mm/aaaa"
+                        title="formato:">
+                </div>
+
+                <div class="mb-3">
+                    <label for="login"class="from-label">login:</label>
+                    <input type="login"
+                        class="form-control"
+                        id="login"
+                        name="login"
+                        pattern="[A-Za-z0-9]{4,12}"    maxlength="10"             
+                        title="login"
+                        placeholder="username"
+                        title="Usuário deve ter entre 4 e 12 caracteres alfanuméricos" required />
+                </div>
+                
+
+
+                <button type="button" class="btn btn-outline-primary">cadastrar</button>
+                <button type="button" class="btn btn-outline-secondary">limpar</button>
+                
+                        
+
+                        <div class="row">
+                            <div class="mb-3 col-lg-4 col-md-6">
+                                <label for="nome" class="form-label"nome:></label>
+                                <input type="text"class="form">
+                            </div>
+                        </div>
+
+                   
+            </form>
+               
+
+        <section id="section2">
+            
+            <article>
+               
+            </article>
+        </section>
+    </main>
+
+    <!-- Elemento FOOTER - Roda-pé da página --> 
+    <footer id="footer">
+        <p>&copy; 2025 - Guilherme de Oliveira Marques.</p>
+    </footer>
+</body>
+</html>
