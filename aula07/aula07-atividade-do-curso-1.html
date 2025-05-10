@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Estrutura HTML5</title>
+    <meta name="description" content="Uma página de exemplo para demonstrar a estrutura básica do HTML5 com Bootstrap e Font Awesome.">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+ <!-- Estilos personalizados (opcional) -->
+ <style>
+    body {
+        padding: 20px;
+    }
+    header {
+        margin-bottom: 20px;
+    }
+    footer {
+        margin-top: 40px;
+        padding-top: 20px;
+        background-color: #f8f9fa;
+    }
+</style>
+</head>
+<body>
+
+<!-- Cabeçalho -->
+<header class="container">
+    <div class="d-flex justify-content-between align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file" viewBox="0 0 16 16">
+            <path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1"/>
+          </svg><h1 class="text-primary">meu Curriculo</h1>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a href="#section1" class="nav-link">Seção 1</a></li>
+                <li class="nav-item"><a href="#section2" class="nav-link">Seção 2</a></li>
+                <li class="nav-item"><a href="#footer" class="nav-link">Rodapé</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Conteúdo principal -->
+<main class="container">
+    <section id="section1" class="mb-5">
+        <h2 class="text-success">Sobre mim</h2>
+        <img src="img/imagem pra colocar.webp"
+         alt="Descrição alternativa da imagem" height="200" width="200">
+        
+        <p class="lead">nome:Guilherme de Oliveira Marques</p>
+        <p class="lead">idade:17 anos</p>
+        <p class="lead">gmail:guilhermeytb.08@gmail.com</p>
+        <p class="lead">telefone:(21)96719-6148</p>
+        <p class="lead">data de nascimento:07/04/2008</p>
+        <p class="lead">cidade:Magé</p>
+    </section>
+
+    <section id="section2" class="mb-5">
+        <h2 class="text-info">Seção 2: experiência</h2>
+
+        <article class="card mb-3">
+            <div class="card-body">
+                <h3 class="card-title text-warning">aprendendo </h3>
+                <p class="card-text"> python,html CSS,github e JavaScript.</p>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card-body">
+                <h3 style="color: blue;">idioma</h3>
+                <p class="card-text">Português e inglês intermediario.</p>
+            </div>
+        </article>
+    </section>
+
+        <article class="card">
+            <div class="card-body">
+            <h4 class="card-title text-danger">soft skills</h2>
+            <p class="card-text">criatividade,colaboração,empatia,proatividade.</p>
+         
+        </div>
+    </article>
+</section>
+</main>
+        
+
+<!-- Rodapé -->
+<footer id="footer" class="container text-center">
+    <p class="text-muted">&copy; 2025 - Todos os direitos reservados.</p>
+</footer>
+
+<!-- Bootstrap JS e dependências -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
